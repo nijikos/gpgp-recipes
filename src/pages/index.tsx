@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <main
       id='mainwrapper'
-      className={`${rubik.variable} px-4 py-10 bg-primary-1 flex flex-col gap-8 max-w-lg mx-auto scroll-smooth`}
+      className={`${rubik.variable} px-4 py-10 bg-primary-1 flex flex-col gap-8 max-w-lg mx-auto scroll-smooth pb-96`}
     >
       <Head>
         <title>Good Pizza Great Pizza Recipe Guide</title>
