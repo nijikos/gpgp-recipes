@@ -73,16 +73,15 @@ export default function Home() {
 
       <div className='text-primary-5'>
         <p className='font-bold text-7xl pageTitle'>Good Pizza, Great Pizza</p>
-        <p className='text-center text-2xl mb-4'>Recipe Guide</p>
+        <p className='text-center text-2xl mb-4'>Pencarian Resep</p>
         <p className='text-center text-xs'>
-          Based on{" "}
+          Berdasarkan daftar pesanan dari fandom Wiki Good Pizza Great Pizza{" "}
           <Link
-            href='https://good-pizza-great-pizza.fandom.com/wiki/List_of_orders'
+            href='https://id-good-pizza-great-pizza.fandom.com/id/wiki/Daftar_pesanan'
             target='_blank'
           >
-            <span className='text-accent-4 hover:underline'>this</span>
-          </Link>{" "}
-          Good Pizza Great Pizza fandom wiki
+            <span className='text-accent-4 hover:underline'>ini</span>
+          </Link>
         </p>
       </div>
 

@@ -33,14 +33,14 @@ export default function Home() {
 
   useEffect(() => {
     if (!isEmpty(searchTerm)) {
-      let yes = searchByQuotes(searchTerm, pizzas);
-      setSearchResults(yes);
-      console.log(`yes`, { yes });
+      let result = searchByQuotes(searchTerm, pizzas);
+      setSearchResults(result);
     } else {
       setSearchResults([]);
     }
     return () => {};
   }, [searchTerm]);
+
   return (
     <main
       id='mainwrapper'
