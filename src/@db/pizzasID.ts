@@ -245,7 +245,7 @@ export const pizzas: Record<string, any> = {
             name: "Pepperoni",
             items: [
               {
-                name: "Pepperoni +___",
+                name: "Pepperoni",
                 quotes: [
                   "Umm... bisakah aku pesan pizza pepperoni tanpa keju atau saus?",
                   "Maksudku jangan taruh keju atau saus di atasnya.",
@@ -668,7 +668,7 @@ export const pizzas: Record<string, any> = {
             name: "Bawang",
             items: [
               {
-                name: "Bawang +___",
+                name: "Bawang",
                 quotes: [
                   "Bawang saja, kalau bisa. Sudah.",
                   "Hm... Bawang saja.",
@@ -904,7 +904,7 @@ export const pizzas: Record<string, any> = {
             name: "Bacon",
             items: [
               {
-                name: "Bacon +___",
+                name: "Bacon",
                 quotes: [
                   "Aku kesini untuk bacon. Bisakah taruh bacon di atas roti, dengan tidak pakai apa-apa selain itu?",
                   "Mungkin aku akan membuang roti itu nanti.",
@@ -979,7 +979,7 @@ export const pizzas: Record<string, any> = {
             name: "Ikan Teri",
             items: [
               {
-                name: "Ikan Teri +___",
+                name: "Ikan Teri",
                 quotes: [
                   "Aku sedang mencoba menjadi pelaut, Aku mau teri pada adonan.",
                   "Jujur, ada pelaut di luar.",
@@ -1189,7 +1189,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Terong[]",
+            name: "Terong",
             items: [
               {
                 name: "Saus + Keju + Terong",
@@ -1261,7 +1261,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Udang[]",
+            name: "Udang",
             items: [
               {
                 name: "Saus + Udang",
@@ -1324,7 +1324,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Jagung[]",
+            name: "Jagung",
             items: [
               {
                 name: "Saus + Keju + Jagung",
@@ -1381,7 +1381,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Ayam[]",
+            name: "Ayam",
             items: [
               {
                 name: "Keju + Ayam",
@@ -1475,7 +1475,7 @@ export const pizzas: Record<string, any> = {
                 name: "Saus + Keju + Bacon + Jagung + Ayam",
                 quotes: [
                   `Ibuku biasa membuat ayam goreng dengan daging keju jagung. Aku rindu masakannya...`,
-                  `Katakanlah, apakah ada cara kamu bisa menaruh ayam, bacon, dan keju pada pizza keju? (Maksudnya ayam, bacon, dan jagung.)”`,
+                  `Katakanlah, apakah ada cara kamu bisa menaruh ayam, bacon, dan keju pada pizza keju? (Maksudnya ayam, bacon, dan jagung.)`,
                 ],
               },
               {
@@ -1488,7 +1488,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Bawang Putih[]",
+            name: "Bawang Putih",
             items: [
               {
                 name: "Keju + Bawang Putih",
@@ -1553,7 +1553,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Irisan Tomat[]",
+            name: "Irisan Tomat",
             items: [
               {
                 name: "Saus + Keju + Irisan Tomat",
@@ -1639,7 +1639,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Jalapeno[]",
+            name: "Jalapeno",
             items: [
               {
                 name: "Saus + Keju + Jalapeno",
@@ -1711,7 +1711,7 @@ export const pizzas: Record<string, any> = {
               {
                 name: "Saus + Bawang + Jagung + Bawang Putih + Irisan Tomat + Jalapeno",
                 quotes: [
-                  `Bisakah aku memesan satu pizza, tanpa keju? Tapi tambahkan bawang, bawang putih, jalapeno, dan sedikit jagung. (Pizza ini ada tomatnya, seperti yang ditulis di Wiki. Sepertinya lupa ditulis saat menerjemahkan.)”`,
+                  `Bisakah aku memesan satu pizza, tanpa keju? Tapi tambahkan bawang, bawang putih, jalapeno, dan sedikit jagung. (Pizza ini ada tomatnya, seperti yang ditulis di Wiki. Sepertinya lupa ditulis saat menerjemahkan.)`,
                   `Bawang, jagung, irisan tomat, bawang putih, jalapeno... Satu pizza salsa jagung!`,
                 ],
               },
@@ -1723,7 +1723,7 @@ export const pizzas: Record<string, any> = {
         name: "Resep Bervariasi",
         items: [
           {
-            name: "Vegetarian[]",
+            name: "Vegetarian",
             items: [
               {
                 name: "Saus + Keju + Jamur + Zaitun + Bawang + Paprika + Nanas + Kemangi + Terong + Jagung + Bawang Putih + Irisan Tomat + Jalapeno",
@@ -1739,7 +1739,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Vegan[]",
+            name: "Vegan",
             items: [
               {
                 name: "Saus + Jamur + Zaitun + Bawang + Paprika + Nanas + Kemangi + Terong + Jagung + Bawang Putih + Irisan Tomat + Jalapeno",
@@ -1762,7 +1762,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Buah, sayur dan saus, daging dan keju[]",
+            name: "Buah, sayur dan saus, daging dan keju",
             items: [
               {
                 name: "[Saus + Keju + Zaitun + Paprika + Nanas + Terong + Irisan Tomat + Jalapeno] [Saus + Bawang + Kemangi + Jagung + Bawang Putih] [Keju + Pepperoni + Sosis + Bacon + Ham + Udang + Ayam]",
@@ -1774,7 +1774,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "All-Dressed[]",
+            name: "All-Dressed",
             items: [
               {
                 name: "Saus + Keju + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika + Bacon + Nanas + Ikan Teri + Ham + Kemangi + Terong + Udang + Jagung + Ayam + Bawang Putih + Irisan Tomat + Jalapeno",
@@ -1786,7 +1786,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Gandum doang[]",
+            name: "Gandum doang",
             items: [
               {
                 name: "Adonan Gandum + Saus + Keju + Jamur + Zaitun + Bawang + Paprika + Nanas + Kemangi + Terong + Jagung + Bawang Putih + Irisan Tomat + Jalapeno",
@@ -1798,7 +1798,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Pizza Peskatarian[]",
+            name: "Pizza Peskatarian",
             items: [
               {
                 name: "[Saus + Keju + Jamur + Zaitun + Paprika + Nanas + Ikan Teri + Terong + Udang + Irisan Tomat + Jalapeno]x2",
@@ -1810,7 +1810,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Gandum panas dengan daging[]",
+            name: "Gandum panas dengan daging",
             items: [
               {
                 name: "Adonan Gandum + Saus + Keju + Pepperoni + Sosis + Bacon + Ikan Teri + Ham + Udang + Ayam",
@@ -1822,7 +1822,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Daging dan keju[]",
+            name: "Daging dan keju",
             items: [
               {
                 name: "Keju + Pepperoni + Sosis + Bacon + Ham + Ayam",
@@ -1834,7 +1834,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Setengah daging, setengah vegetarian[]",
+            name: "Setengah daging, setengah vegetarian",
             items: [
               {
                 name: "Saus + Keju + (Pepperoni + Sosis + Bacon + Ikan Teri + Ham + Udang + Ayam) + (Jamur + Zaitun + Bawang + Paprika + Nanas + Kemangi + Terong + Jagung + Bawang Putih + Irisan Tomat + Jalapeno)",
@@ -1846,7 +1846,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Setengah buah dan jamur, setengah daging[]",
+            name: "Setengah buah dan jamur, setengah daging",
             items: [
               {
                 name: "Saus + Keju + (Jamur + Zaitun + Paprika + Nanas + Terong + Irisan Tomat + Jalapeno) + (Pepperoni + Sosis + Bacon + Ikan Teri + Ham + Udang + Ayam)",
@@ -1858,7 +1858,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Anti laktosa[]",
+            name: "Anti laktosa",
             items: [
               {
                 name: "Saus + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika + Bacon + Nanas + Ikan Teri + Ham + Kemangi + Terong + Udang + Jagung + Ayam + Bawang Putih + Irisan Tomat + Jalapeno",
@@ -1870,7 +1870,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Pizza dengan topping yang bau[]",
+            name: "Pizza dengan topping yang bau",
             items: [
               {
                 name: "Saus + Keju + Bawang + Ikan Teri + Bawang Putih",
@@ -1882,7 +1882,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Pizza sayur[]",
+            name: "Pizza sayur",
             items: [
               {
                 name: "Saus + Keju + Bawang + Kemangi + Jagung + Bawang Putih",
@@ -1894,7 +1894,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Pizza hijau dengan bawamg putih dan salami[]",
+            name: "Pizza hijau dengan bawamg putih dan salami",
             items: [
               {
                 name: "[Pesto + Pepperoni + Paprika + Kemangi + Bawang Putih + Jalapeno]x2",
@@ -1906,7 +1906,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Satu dengan daging, satu dengan selain daging[]",
+            name: "Satu dengan daging, satu dengan selain daging",
             items: [
               {
                 name: "[Pesto + Keju + Pepperoni + Sosis + Bacon + Ikan Teri + Ham + Udang + Ayam] [Pesto + Keju + Jamur + Zaitun + Bawang + Paprika + Nanas + Kemangi + Terong + Jagung + Bawang Putih + Irisan Tomat + Jalapeno]",
@@ -1918,7 +1918,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Nanas di bawah laut[]",
+            name: "Nanas di bawah laut",
             items: [
               {
                 name: "Saus + Keju + Nanas + Ikan Teri + Udang",
@@ -1930,7 +1930,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Biji-bijian untuk kehidupan[]",
+            name: "Biji-bijian untuk kehidupan",
             items: [
               {
                 name: "Saus + Keju + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika + Bacon + Nanas + Ikan Teri + Ham + Kemangi + Terong + Udang + Ayam + Bawang Putih + Irisan Tomat + Jalapeno",
@@ -1942,7 +1942,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Ayam dan sayuran[]",
+            name: "Ayam dan sayuran",
             items: [
               {
                 name: "Pesto + Bawang + Kemangi + Jagung + Ayam + Bawang Putih",
@@ -1954,7 +1954,7 @@ export const pizzas: Record<string, any> = {
             ],
           },
           {
-            name: "Film Za Wars[]",
+            name: "Film Za Wars",
             items: [
               {
                 name: "Pesto + Keju + Paprika + Alpukat",
@@ -1966,24 +1966,1180 @@ export const pizzas: Record<string, any> = {
           },
         ],
       },
-      { name: "Recep Bernama", items: [] },
+      {
+        name: "Recep Bernama",
+        items: [
+          {
+            name: "Daging Biasa",
+            items: [
+              {
+                name: "Saus + Keju + Pepperoni + Sosis",
+                quotes: [
+                  `Serasa seperti hari pizza daging. Namun, tidak termasuk daging yang mewah.`,
+                  `Sosis dan pepperoni dong. Daging yang mainstream.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Super",
+            items: [
+              {
+                name: "Saus + Keju + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika",
+                quotes: [
+                  `Aku mau pesan satu yang spesial.`,
+                  `Ya, Saus, keju, pepperoni, sosis, jamur, zaitun, bawang, dan paprika.`,
+                  `Aku ingin pizza super itu.`,
+                  `Super? Spesial? Terserah. Buatkan aku pepperoni, sosis, bawang, paprika, zaitun, jamur itu.`,
+                  `Buatkan aku pizza spesial.`,
+                  `Pizza spesial. Pepperoni, sosis, bawang, paprika, zaitun, jamur.`,
+                  `Satu Wombo Kombo!`,
+                  `Pepperoni, iya! Sosis, iya! Bawang, iya! Zaitun, iya! Jamur, iya! Paprika, iya!`,
+                ],
+              },
+              {
+                name: "[Saus Tomat + Keju + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika]x2",
+                quotes: [
+                  `Bro, bocah yang pakai kaos merah itu membuatku lapar akan pizza. Aku pesan 2 supreme, dong!`,
+                  `Dua pizza dengan pepperoni, sosis, bawang, zaitun, jamur, paprika... oh, dan saus tomat!`,
+                ],
+              },
+              {
+                name: "Pesto + Keju + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika",
+                quotes: [
+                  `Aku sangat suka pizza supreme karena punya banyak sekali rasa. Tapi aku bertaruh akan jauh lebih enak jika pakai pesto!`,
+                  `Aku mau pizza keju pesto dengan pepperoni, sosis, jamur, zaitun, bawang, dan paprika.`,
+                ],
+              },
+              {
+                name: "(Saus Tomat) + (Pesto) + Keju + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika",
+                quotes: [
+                  `Aku tidak bisa memutuskan jika pizza supreme akan terasa lebih nikmat dengan saus pesto atau saus pizza. Bisakah aku pesan setengah-setengah?`,
+                  `Itu pepperoni, sosis, bawangm zaitun, jamur, dan paprika. Tapi buat setengahnya pesto, setengahnya lagi saus merah.`,
+                ],
+              },
+              {
+                name: "[Saus + Keju + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika] [Saus + Keju + Sosis + Jamur + Zaitun + Bawang + Paprika + (Pepperoni)]",
+                quotes: [
+                  `Pesan dua pizza spesial, tapi satunya setengah tanpa pepperoni!`,
+                  `Pepperoni, sosis, bawang, paprika, zaitun, jamur di kedua pizza. Kecuali untuk setengah satunya. Jangan pakai pepperoni.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + (Pepperoni + Sosis) + (Jamur + Zaitun + Bawang + Paprika)",
+                quotes: [
+                  `Lelaku itu benar... Pizza supreme MEMANG terdengar lebih enak dengan saus tomat. Tapi aku masih mau memisahkan daging dan hal lainnya pada setengah pizza.`,
+                  `Buatkan saja pizza keju marinara, dengan pepperoni dan saus pada satu sisi. Taruh jamur, paprika, bawang, dan zaitun pada setengah sisi lainnya.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Pizza daging babi",
+            items: [
+              {
+                name: "Pepperoni + Sosis + Bacon + Ham",
+                quotes: [
+                  `Aku mau pizza daging babi. Tidak perlu repot-repot menaruh saus atau keju atau sesuatu yang amis.`,
+                  `Aku hanya ingin olahan babi di atas pizza.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Meat Lovers",
+            items: [
+              {
+                name: "Saus Tomat + Keju + Pepperoni + Sosis + Bacon + Ham",
+                quotes: [
+                  `Aku mau pesan Meat Lover. Dan pastikan kamu memakai saus merah!`,
+                  `Pepperoni, sosis, ham, bacon? Dan, keju pasti terasa JAUH lebih enak dengan saus merah!`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Pepperoni + Sosis + Zaitun + Bacon + Ham",
+                quotes: [
+                  `Pizza favoritku adalah Pecinta Daging, tapi aku juga suka zaitun. Bisakah kamu menambahkan itu?`,
+                  `Jadi, aku ingin topping daging: pepperoni, sosis, ham, dan bacon. Tapi, tambahkan zaitun juga!`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Pepperoni + Sosis + Bacon + Ham + Jalapeno",
+                quotes: [
+                  `Aku paling suka Meat Lover, tapi aku sedang ingin sesuatu yang sedikit pedas. Bisa tambahkan jalapeno?`,
+                  `Itu pizza yang berisi pepperoni, sosis, bacon dan ham, dengan jalapeno ya!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Green Dream",
+            items: [
+              {
+                name: "Saus + Keju + Paprika + Kemangi",
+                quotes: [
+                  `Buatkan aku satu Green Dream.`,
+                  `Taruh paprika dan kemangi diatas pizza! Itu namanya Green Dream!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Salty Sailor",
+            items: [
+              {
+                name: "Saus + Keju + Zaitun + Ikan Teri",
+                quotes: [
+                  `Aku mau pesan Salty Sailor.`,
+                  `Itu adalah pizza zaitun dengan ikan teri.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Fruity Pig",
+            items: [
+              {
+                name: "Saus + Keju + Pepperoni + Sosis + Zaitun + Paprika + Bacon + Nanas + Ham",
+                quotes: [
+                  `Aku sedang BM, tapi aku tidak mau pizza Hawaii tradisional; Aku mau tiga dari menu utama pizza Fruity Pig.`,
+                  `Taruh pepperoni, sosis, ham, dan bacon pada pizza bersama zaitun, paprika, dan nanas. Aku pesan tiga pizza Fruity Pig!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Setengah Salty Sailor, setengah Fruity Pig",
+            items: [
+              {
+                name: "Saus + Keju + Zaitun + (Pepperoni + Sosis + Bacon + Nanas + Ham) + (Ikan Teri)",
+                quotes: [
+                  `Aku mau pizza yang setengahnya Salty Sailor dan setengah yang lain Fruity Pig, tapi aku tidak mau ada topping lain yang ada di Green Dream.`,
+                  `Setengah zaitun dan teri, dan setengah zaitun, paprika, nanas, pepperoni, sosis, ham, dan bacon. Tetap pakai paprika. (Sepertinya maksudnya 'Tetapi tanpa paprika.')” `,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Stinky Pete",
+            items: [
+              {
+                name: "Saus + Keju + Bawang + Ikan Teri",
+                quotes: [
+                  `Aku ingin pizza bawang dan teri untuk membuat kencan ini menjadi berkesan.`,
+                  `Kesukaan pasanganku adalah Stinky Pete.`,
+                  `Aku mau pizza bawang dan teri untuk merusak sebuah kencan.`,
+                  `Jika aku tidak alergi terhadap bawang putih, maka aku akan memesan pizza Super Stinky.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Pizza Joker",
+            items: [
+              {
+                name: "Saus + keju + Pepperoni + Paprika + Terong",
+                quotes: [
+                  `HAHAHAHA!!! Aku akan memiliki pizza Joker!`,
+                  `Hehe, kenapa serius sekali? Ini Gampang! Paprika hijau, terong ungu, pepperoni merah!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Pizza sarapan",
+            items: [
+              {
+                name: "Saus + Keju + Sosis + Jamur + Bawang + Bacon + Ham",
+                quotes: [
+                  `Aku mau telur dadar, tapi karena ini restoran pizza, Aku mau sarapan pizza.`,
+                  `Bawang, jamur, sosis, bacon, ham. Kamu tahu? Berhubungan dengan telur dadar?`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Capricciosa",
+            items: [
+              {
+                name: "Pesto + Keju + Jamur + Zaitun + Ham",
+                quotes: [
+                  `Aku tadinya mau pesan pizza capricciosa dengan pesto, tapi kamu tidak punya artichokes... Aku rasa aku akan pesan yang lainnya saja.`,
+                  `Jadi, aku pesan ham, jamur, dan zaitun. Dan jangan lupa, aku ingin pakai saus pesto.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Pizza Hawaii",
+            items: [
+              {
+                name: "[Saus + Keju + Ham + (Nanas)]x2",
+                quotes: [
+                  `Bisakah saya mendapatkan dua pizza Hawaii? Tapi taruh nanas pada hanya satu setengahnya.`,
+                  `Teman saya berkata bahwa pizza nanas itu menjijikkan, jadi taruh hanya pada satu sisi. Namun, ham pada kedua sisi.`,
+                ],
+              },
+              {
+                name: "Pesto + Keju + Ham + Nanas",
+                quotes: [
+                  `Jika kamu berpikir bahwa pizza Hawaiian adalah perdebatan panas... Bagaimana kalau pizza Hawaiian dengan SAUS PESTO?!`,
+                  `Benar, aku mau mendapatkan beberapa KACANG! Aku mau pizza dengan pesto, nanas, dan ham!`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Nanas + Udang",
+                quotes: [
+                  `Orang-orang suka pizza Hawaii, namun pizza Hawaii sebenarnya memakai udang.`,
+                  `Ya, itu! Aku mau pizza Hawaii yang SEBENARNYA, dengan udang dan nanas!`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Nanas + Ham + Udang",
+                quotes: [
+                  `Pizza Hawaii itu enak, namun aku tidak mengerti mengapa mereka tidak pernah menaruh udang di atasnya!`,
+                  `Nah, udang begitu terkenal di Hawaii dan itu terasa sangat lezat! Mungkin dengan nanas dan ham juga.`,
+                ],
+              },
+              {
+                name: "[Saus + Keju + Nanas + Bacon + Ham + Jalapeno]x2",
+                quotes: [
+                  `2 Hawaiian, dengan bacon dan jalapeno.`,
+                  `Ya, kamu tidak salah dengar: dua pizza dengan ham, nanas, bacon, dan jalapeno.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Nanas + Ham + Jalapeno",
+                quotes: [
+                  `Aku pesan satu pizza Hawaii dengan jalapeno, dong!`,
+                  `Ham yang asin dan nanas yang manis menyeimbangkan cabai yang pedas dengan tepat!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Puttanesca",
+            items: [
+              {
+                name: "Pesto + Keju + Zaitun + Ikan Teri + Bawang Putih",
+                quotes: [
+                  `Kalian tidak menjual pasta, ya? Tapi bagaimana jika kamu membuat pizza puttanesca saja?`,
+                  `Oke, jangan hiraukan sebutannya. Taruh saja ikan teri, zaitun dan bawang putih, dan pizza siap disajikan!`,
+                  `Yey! Akhirnya aku bisa mencoba pizza puttanesca dengan pesto!`,
+                  `Oh betul juga, kamu tidak punya menu itu... Bisakah kamu membuatkan pizza dengan ikan teri, bawang putih, zaitun, keju, dan saus pesto?`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "House Special",
+            items: [
+              {
+                name: "House Special",
+                quotes: [
+                  `Aku sedang terburu-buru untuk melihat menu, jadi aku akan pesan house special yang kamu punya.`,
+                  `Aku tidak punya waktu untuk menyebutkannya. Satu house special saja.`,
+                  `Satu House Special.`,
+                  `Itu adalah pizza house special, kan?`,
+                  `Oh, ini terlihat lezat, House Special satu.`,
+                  `Aku mau pizza yang ada di menu spesialmu.`,
+                  `Aku ingin tahu apa yang membuat House Special begitu spesial.`,
+                  `Ini disebut house special, tapi hanya indra pengecapku yang akan menentukan apakah ini benar-benar spesial!`,
+                  `Hai, aku ingin memesan House Special!`,
+                  `House special saja!`,
+                  `Aku suka pergi ke berbagai restoran pizza untuk melihat house special apa yang mereka punya!`,
+                  `Punyamu terlihat enak, aku mau satu!`,
+                ],
+              },
+              {
+                name: "House Special ",
+                quotes: [
+                  `House Special terlihat sangat lezat, aku mau pesan satu untuk sekarang dan satu lagi untuk nanti!`,
+                  `Jadi aku rasa aku mau pesan dua house special!`,
+                  `Sekarang kamu punya house special? Aku mau pesan dua!`,
+                  `Dua pizza house special!`,
+                  `Aku sangat lapar dan House Special terlihat sangat enak. Aku bisa memakan dua sekaligus!`,
+                  `Dua house special hanya untukku!`,
+                ],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
   chapters: {
     name: "Bagian",
     items: [
-      { name: "Bagian 1", items: [] },
-      { name: "Bagian 2", items: [] },
-      { name: "Bagian 3", items: [] },
-      { name: "Bagian 4", items: [] },
-      { name: "Bagian 5", items: [] },
+      {
+        name: "Bagian 1",
+        items: [
+          {
+            name: "Alicante",
+            items: [
+              {
+                name: "Saus + Keju",
+                quotes: [
+                  `Ya itu sudah pasti. Mari lihat kemampuanmu membuat pizza keju. Hanya enam potong dengan saus dan keju.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Pepperoni",
+                quotes: [
+                  `Kalau begitu mari buat pepperoni. Dan ya, pakai keju dan saus, amatir. Enam potong. Aku tidak mau melihat ada potongan bayi.`,
+                  `Terlambat! Karena aku ingin pepperoni. Dan ya, pakai keju dan saus, amatir. Enam potong. Aku tidak mau melihat ada potongan bayi.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Pepperoni",
+                quotes: [
+                  `Setidaknya kamu tahu betapa orang-orang itu bimbang! Mari lihat bagaimana kamu membagi pizza itu. Buat setengah keju dan setengah pepperoni.`,
+                  `Orang-orang b8mbang, amatir! Kamu akan membiarkan mereka mencampur dan mencocokkan! Mari lihat bagaimana cara membagi pizza itu. Buat setengah keju dan setengah pepperoni.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Sobat Tuna Wisma",
+            items: [
+              {
+                name: "Apa saja",
+                quotes: [
+                  `Tolong. Aku sangat lapar.`,
+                  `Apa saja boleh. Terima kasih..`,
+                  `Hai.. tolong.. Bisakah aku minta lagi?`,
+                  `Apa saja boleh. Terima kasih.`,
+                  `Halo sobat.. Apakah ada pizza tambahan?`,
+                  `Kamu sangat baik. Kita harus menjadi sahabat..`,
+                  `Sobat.. Bisakah kamu memberi pizza lagi?`,
+                  `Apa saja boleh. Kaulah yang terbaik, sobat.`,
+                  `Sobat! Aku harap semuanya berjalan baik-baik saja. Ada kesempatan aku bisa dapat pizza?`,
+                  `Apa saja boleh. Kau benar-benar menyelamatkan hidupku, nak.`,
+                  `Sobat! Rencana besar di masa depan. Rencana besar, sobat. Kita masih sahabat?`,
+                  `Apa saja boleh. Restoran kamu akan menjadi yang nomor 1. Percayalah, sobat.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Wanita Tanaman",
+            items: [
+              {
+                name: "Apa saja",
+                quotes: [
+                  `Aku tidak punya uang sama sekali, tapi aku akan memberikan hadiah spesial untuk ditukar dengan pizza.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Rufus Goldworthy",
+            items: [
+              {
+                name: "Apa saja",
+                quotes: [
+                  `Hidupku sedang kacau sekarang, dan aku tidak punya uang untuk membeli makanan. Bisakah kamu menolongku?`,
+                  `Terima kasih. Terima kasih.`,
+                  `Semuanya masih kacau saat ini. Aku tidak punya uang. Bisakah aku mendapat bantuan?`,
+                  `Terima kasih.. banyak..`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Pria Pizza Vegetarian",
+            items: [
+              {
+                name: "Saus + Keju + Jamur + Terong + Zaitun + Bawang + Paprika",
+                quotes: [
+                  `Bisakah aku mendapatkan pizza vegetarian, tolong?`,
+                  `Terima kasih.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Kritikus",
+            items: [
+              {
+                name: "Saus + Keju + Pepperoni",
+                quotes: [
+                  `Aku kesini untuk bisnis. Bisakah aku pesan satu pepperoni?`,
+                ],
+              },
+              {
+                name: "Saus + Keju + (Sosis) + (Jamur)",
+                quotes: [
+                  `Aku kesini untuk bisnis. Bisakah aku pesan satu pizza setengah sosis dan setengah jamur?`,
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Bagian 2",
+        items: [
+          {
+            name: "Pelayan Bahan-Bahan Suci",
+            items: [
+              {
+                name: "[Saus + Keju] [Saus + Keju + Pepperoni + Sosis] [Saus + Keju + Jamur + Zaitun + Bawang + Paprika + Terong]",
+                quotes: [
+                  `Teruntuk Anda, pemilik salon pizza popular! Keahlian Anda telah terdengar oleh organisasi kami: Pelayan dari Bahan-Bahan Suci! Anda mungkin telah mengetahui kantor kami di seberang jalan.`,
+                  `Saucesayers telah meramalkan transenden za, jadi kami bermaksud untuk menguji kamu dengan ujian bakat dan rasa. Namun sekarang, kami mau tiga pizza. Satu polos. Satu vegan. Satu dengan daging.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Pelayan Kemangi",
+            items: [
+              {
+                name: "Apa saja",
+                quotes: [
+                  `Aku adalah saucesayers. Buatkan aku pizza yang akan mengungkapkan takdirmu.`,
+                  `Buatkan aku pizza yang akan mengungkapkan takdirmu.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + (Bawang + Jamur) + (Zaitun + Paprika + Kemangi)",
+                quotes: [
+                  `Bisakah kamu menyeimbangkan sausnya? Aku mencari pizza kedamaian, penghormatan atas dewa bumi dan karunia-Nya.`,
+                  `Bahan-bahan yang tumbuh di atas tanah dan yang menggantung di atas tanah. Dan aku tidak suka nanas.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Pelayan Nanas",
+            items: [
+              {
+                name: "Saus + Zaitun + Paprika + Nanas + Terong",
+                quotes: [
+                  `Jika pizzamu benar-benar Elit, sajikan aku pizza yang benar-benar manis.`,
+                  `Semua buah; tambah daging, bahkan keju, namun jangan taruh itu dalam adonan. (Kesalahan terjemahan. Maksudnya: 'tanpa daging, bahkan keju, namum jangan taruh itu pada adonan gandum.')`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Pelayan Gandum",
+            items: [
+              { name: "Adonan Gandum + Saus + Keju", quotes: [`...`, `...`] },
+            ],
+          },
+          {
+            name: "Pelayan Daging Babi",
+            items: [
+              {
+                name: "Saus + Keju + Pepperoni + Sosis + Bacon + (Ham)",
+                quotes: [
+                  `Bersiap-siaplah, koboi, Aku rasa kamu telah membagi pizza dengan adil, namun masih belum cukup untuk ujian dariku, aku ingin lihat pizza dengan daging yang perkasa.`,
+                  `Taruh daging segi empat ke satu sisi; daging yang lain boleh ada di kedua sisi. Hanya daging babi, teman.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Pelayan Ikan Teri",
+            items: [
+              {
+                name: "(Saus + Ikan Teri) + Tanpa apa-apa",
+                quotes: [
+                  `Beberapa orang percaya bahwa pizzamu telah diberkati oleh saucesayers. Aku rasa ada sesuatu yang amis tentangmu... dan aku ingin kamu membuktikannya.`,
+                  `Tunjukkan aku sebuah pizza yang terlihat seperti pantai yang sepi. Ikan berenang di lautan, dan tidak ada seorang pun di pantai.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Pelayan Terakhir",
+            items: [
+              {
+                name: "Apa saja",
+                quotes: [
+                  `Rekanku melaporkan bahwa kamu telah lulus semua ujian, namun sang saucesayers meramalkan za transenden.`,
+                  `Jika kamu adalah yang terpilih, maka kamu akan segera mengetahuinya.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Peppertiti",
+            items: [
+              {
+                name: "Adonan Gandum + Saus + Keju + (Jamur) + (Nanas)",
+                quotes: [
+                  `Bangkit dari kehancuran bumi dan radiasi matahari membutuhkan nektar Rehat dari kematian masih belum bisa dinikmati tanpa potongan kehidupan yang manis. Dua sisi seimbang dan dibuat semuanya.`,
+                  `Ini adalah teka-teki pizza, kawan. Aku tidak bisa beristirahat sampai aku mendapatkan pizza yang menyeimbangkan kehidupan dan kematian. Itulah setengah hidup dan setengah mati. Dalam seluruh adonan gandum.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Rufus Goldworthy",
+            items: [
+              {
+                name: "Apa saja",
+                quotes: [
+                  `Halo lagi, Aku tahu ini adalah pesanan klasik, namun bisa buatkan aku pizza di rumah?`,
+                  `Aku tidak datang untuk makan. Hanya mengumpulkan beberapa data untuk ide aplikasi saya. Pizza apa saja oke.`,
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Bagian 3",
+        items: [
+          {
+            name: "Peselancar",
+            items: [
+              {
+                name: "Saus + Keju + Ikan Teri",
+                quotes: [
+                  `Apakabs, bro? Menghabiskan sepanjang pagi mengendarai beberapa gelombang... berikan aku satu seafood itu!`,
+                  `Kamu tahu, seperti ikan kurasa?`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Petani",
+            items: [
+              {
+                name: "Saus + Keju + Jamur + Zaitun + Bawang + Paprika + Nanas + Kemangi + Terong",
+                quotes: [
+                  `Aku mau pizza keju dengan produk tersegar yang kamu punya di atasnya.`,
+                  `Sebagai petani, aku mengurus buah, sayuran, dan jamur setiap hari. Tapi aku juga harus memakannya.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Atlet Terkenal",
+            items: [
+              {
+                name: "Saus + Keju + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika + Bacon + Nanas + Ikan Teri + Ham + Kemangi + Terong + Udang + Jagung + Ayam",
+                quotes: [
+                  `Aku mau pizza dengan segala sesuatu di atasnya.`,
+                  `Kamu bisa dengar. Aku mau semua kalori yang bisa aku dapatkan. Sekarang, taruh semua yang kamu punya di pizza itu!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Dr. Keh",
+            items: [
+              {
+                name: "Saus + Keju + Udang",
+                quotes: [
+                  `Jadi, ini restoran yang sedang viral di OrderUp. Baiklah, mari coba beberapa meski manusia gua tidak bisa mengacaukannya: udang.`,
+                  `Apakah saya harus menjelaskan apa itu udang, atau kamu hanya tidak punya udang? Kamu bodoh, sepertinya.`,
+                ],
+              },
+              {
+                name: "[Saus + Keju + Jagung] [Saus + Keju + Ayam]",
+                quotes: [
+                  `Aku tetap mengawasi kamu. Kamu benar-benar berpikir kamu bisa bersaing denganku, SANG Dr. Michael Keh?!`,
+                  `Buktikan. Satu pizza dengan ayam dan satu pizza dengan jagung.`,
+                  `Ada masalah apa, tidak memiliki dua bahan tersebut? Atau kamu hanya terlalu takut untuk membuat pizza tersebut?`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Pepperoni",
+                quotes: [
+                  `Kamu licik bro! Kamu mencuri formula penambah rasaku! Saat aku memeriksa botolku, formulanya sudah diganti dengan air!`,
+                  `Hanya itu satu-satunya cara kamu bisa mengalahkan aku, hanya itu! Aku meminta kamu membuat pizza pepperoni!`,
+                  `Pepperoni! SEKARANG!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Juri PizzaCon",
+            items: [
+              {
+                name: "Saus + Keju + Pepperoni",
+                quotes: [
+                  `Aku baru saja mendapatkan pepperoni terbaik yang pernah aku coba! Jadi, bagaimana kamu melakukannya?`,
+                  `Aku tidak memaksa kamu, tapi sulit untuk mengacaukan yang klasik seperti pepperoni.`,
+                ],
+              },
+              {
+                name: "[Saus + Keju + Pepperoni]x3",
+                quotes: [
+                  `Buatkan aku tiga pepperoni secepat yang kamu bisa! Aku terlambat ke pertemuan juri Pizza Con!`,
+                  `Ayo, aku tidak punya banyak waktu! Tiga pepperoni!`,
+                ],
+              },
+              {
+                name: "[Saus + Keju + Pepperoni + Jamur]x2",
+                quotes: [
+                  `Buatkan aku dua pizza pepperoni dan jamur, taruh di oven dua kali.`,
+                  `Aku menilai kemampuan memanggang kamu. Dua pizza pepperoni dan jamur, buat menjadi well done.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika",
+                quotes: [
+                  `Restoran yang rapi! Kamu pasti dapat poin untuk estetika. Lalu, bagaimana dengan pizza terbaik kamu?`,
+                  `Kau tahu, paprika, jamur, zaitun, bawang, sosis dan pepperoni?`,
+                ],
+              },
+              {
+                name: "[Saus + Keju + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika] [Saus + Keju + Pepperoni + Sosis + Bacon + (Ham)]",
+                quotes: [
+                  `Mari lihat bagaimana kamu bisa mengerjakan banyak hal sekaligus di dapur. Satu Supreme, dan satu Meat Lover dengan ham pada setengah sisinya saja.`,
+                  `Satunya daging semua, tapi ham di satu sisi. Yang satunya enam topping tadi!`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Kemangi",
+                quotes: [
+                  `Aku seharusnya libur jadi juri, tapi... Bagaimana kalau kamu buatkan aku pizza margherita terbaikmu?`,
+                  `Saus tomat, mozzarella, keju, dan beberapa kemangi!`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Jamur + Zaitun + Bawang + Paprika + Nanas + Kemangi + Terong + Jagung",
+                quotes: [
+                  `Kamu sudah melihatku sebelumnya. Sekarang, buat seperti biasa dan mari selesaikan persaingan bodoh ini.`,
+                  `Ahhh... maaf, perutku kesal karena aku harus menyudahi diet vegan untuk menilai kompetisi ini.`,
+                ],
+              },
+              {
+                name: "Keju + Bawang + Bacon",
+                quotes: [
+                  `Mari kita uji seberapa baik kamu mengenal pizza. Buatkan aku flammkuchen.`,
+                  `Baiklah, itu sebuah kekurangan. Itu merupakan pizza Jerman tanpa saus dengan bacon dan bawang.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Nanas + Ham",
+                quotes: [
+                  `Bro, menilai pizza sepanjang hari itu melelahkan. Aku mau beristirahat dengan pizza Hawaii.`,
+                  `Fakta bahwa kamu mengetahui bahwa itu adalah nanas dan ham membuatku emosi...`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Ikan Teri + Udang",
+                quotes: [
+                  `Pesaing lain sangat kekurangan pilihan makanan laut. Jadi, bagaimana denganmu?`,
+                  `Aku akan menilai seberapa baik kamu bisa membuat pizza udang dan ikan teri.`,
+                ],
+              },
+              {
+                name: "Zaitun + Bawang + Ikan Teri",
+                quotes: [
+                  `Aku tinggal di Perancis selama setahun. Mari lihat bagaimana pissaladière kamu mewakili asal-usulnya.`,
+                  `Itu hanyalah bawang, zaitun, dan ikan teri pada adonan.`,
+                ],
+              },
+              {
+                name: "(Saus + Pepperoni) + (Keju + Ayam)",
+                quotes: [
+                  `Pizza setengah pepperoni tanpa keju, setengah ayam tanpa saus untuk mendapatkan kebaikanku.`,
+                  `Jika kamu mau mendapatkan persetujuanku, taruh salami pada sisi dengan saus dan ayam pada sisi dengan keju.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Peserta PizzaCon",
+            items: [
+              {
+                name: "Saus + Keju + Sosis",
+                quotes: [
+                  `Ini semua terlihat familiar... pegang ponselnya, apakah kamu di TV minggu ini??`,
+                  `Ya, itu kamu! Aku akan mencoba pizza sosis di sini!`,
+                  `Oke. Aku mau saus, keju, dan sosis.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Sosis + Bawang",
+                quotes: [
+                  `Hey. Jika kamu membiarkanku mengisi ulang ponselku, Aku akan pesan pizza sosis dan bawang.`,
+                  `Terserah, taruh saja sosis dan bawang di atas pizza.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Pepperoni + Sosis",
+                quotes: [
+                  `Oh wow, pizza pertamaku di PizzaCon! Bagaimana dengan pepperoni dan sosis??`,
+                  `Aku mendengar orang-orang di sini suka pepperoni dan sosis. Aku ingin tahu mengapa!`,
+                  `Bro, aku mencium ini dari blok seberang. Aku harus mencoba pizza pepperoni dan sosis kamu!`,
+                  `Kamu pernah bertemu seseorang yang tidak suka pepperoni dan sosis? Orang seperti itu gila!`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Zaitun + Kemangi",
+                quotes: [
+                  `Aku cinta PizzaCon. Mendengar resep baru, mendapatkan alat masak baru, melihat semua wajah bahagia itu... Aku hidup untuk ini!`,
+                  `Oh, aku mau pesan pizza kemangi dengan zaitun!`,
+                  `Saus, keju, kemangi, dan zaitun. Itu saja.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika",
+                quotes: [
+                  `Kota ini merupakan kota terbaik yang pernah aku kunjungi! Aku mau pizza yang terbaik juga, dong!`,
+                  `Bisakah aku mendapatkan pizza terbaik? Itu terdiri dari pepperoni, jamur, zaitun, bawang, dan paprika.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Jamur",
+                quotes: [
+                  `Aku tidak sabar melihat Pizza Underground, tapi aku mendengar mereka berpisah. Menyedihkan...`,
+                  `Ngomong-ngomong... Bisakah aku pesan pizza jamur, satu?`,
+                  `Oke. Aku mau saus, keju, dan jamur.`,
+                ],
+              },
+              {
+                name: "Adonan Gandum + Saus + Keju + Jagung",
+                quotes: [
+                  `Aku mendengar kabar gosip bahwa tempat ini dipenuhi dengan sebutir garam. Jadi buatkan aku pizza dengan biji-bijian.`,
+                  `Baiklah, mari mulai dengan adonan gandum. Lalu buatlah pizza keju dengan jagung.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + (Nanas) + (Ikan Teri)",
+                quotes: [
+                  `Aku selalu bermimpi bisa pergi ke PizzaCon... Aku tidak percaya aku di sini! Ini sangat menarik!`,
+                  `Setengah nanas dan setengah ikan teri untuk merayakan, yeay!!!`,
+                  `Oke. Aku mau setengah saus, keju, dan nanas dan setengah saus, keju, dan ikan teri.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Kemangi",
+                quotes: [
+                  `Apakah kalian punya WiFi? Aku butuh itu sebentar, tapi aku mau pesan margherita!`,
+                  `Pizza keju dengan kemangi. Kau tahu, sesuatu yang sederhana.`,
+                ],
+              },
+              {
+                name: "Adonan Gandum + Saus + Keju + Ikan Teri + Terong + Udang + Jagung",
+                quotes: [
+                  `Mari coba yang aneh... bagaimana dengan pizza ikan teri, terong, jagung dan udang pada adonan gandum?`,
+                  `Aku suka mencoba hal baru yang tidak bisa didapatkan di tempat lain. Udang, jagung, ikan teri, dan terong pada adonan gandum.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Pasca Bagian 3",
+            items: [
+              {
+                name: "Saus + Keju + Nanas",
+                quotes: [
+                  `Aku tahu kenapa restoran ini bisa menang di PizzaCon. Ada nuansa manis yang mengisi ruangan ini, membuatku ingin memesan pizza yang manis!`,
+                  `Satu pizza manis dengan toppingmu yang paling manis, terima kasih!`,
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Bagian 4",
+        items: [
+          {
+            name: "Nasir/Agen APD",
+            items: [
+              {
+                name: "Apa saja",
+                quotes: [
+                  `Satu pizza. Apa saja.`,
+                  `Dinding bisa mendengar. Aku tidak bisa lama-lama. Buatkan aku pizza.`,
+                  `Buatkan saja aku pizza keju atau apapun...`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Elliot St. Claire",
+            items: [
+              {
+                name: "Apa saja",
+                quotes: [
+                  `Aku pesan tiga pizza, ya! Satu untukku dan dua untuk mobilku.`,
+                  `Pizza apa saja. Aku tidak pilah-pilih dan mobilku tidak punya indra pengecap!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "MegaByte",
+            items: [
+              {
+                name: "Apa saja",
+                quotes: [
+                  `Salam, kawan penikmat pizza! Matrix logika Megabyte mengatakan bahwa sekarang Megabyte sudah siap untuk pizza yang luar biasa.`,
+                  `Megabyte percaya bahwa pizza apapun yang kamu buat mengandung 120% kadar luar biasa!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Angelica Béchamel",
+            items: [
+              {
+                name: "House Special",
+                quotes: [
+                  `Kamu. Berikan house special buatanmu.`,
+                  `Kamu merusak semua yang sudah aku kerjakan dengan susah payah. Aku pantas untuk mencicipi pizza spesialmu. Jadi, hapus muka sombongmu itu dan buatkan satu.`,
+                  `Kamu. Berikan house special buatanmu.`,
+                  `Aku akan membayar dua kali lipat, buatkan saja satu house special!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Pesanan Pelanggan",
+            items: [
+              {
+                name: "Tanpa apa-apa",
+                quotes: [
+                  `Aku merasa orang-orang menghujatku saat aku datang ke BDP hanya untuk memesan roti pizza.`,
+                  `Aku yakin itu tidak akan menjadi masalah disini, iya kan?`,
+                ],
+              },
+              {
+                name: "Saus + Keju",
+                quotes: [
+                  `Aku tidak mau mengantri begitu lama untuk pizza keju yang sederhana.`,
+                  `Aku senang kalian masih buka! Satu pizza keju, ya!`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Pepperoni + Sosis",
+                quotes: [
+                  `Aku bosan dengan pizza buatan mesin. Tolong buatkan aku pizza daging klasik dengan penuh kasih sayang!`,
+                  `Satu pizza daging klasik dibuat secara manual oleh jiwa penyayang sepertimu!`,
+                ],
+              },
+              {
+                name: "[Saus + Keju + Jamur]x2",
+                quotes: [
+                  `Aku ingin mencoba pizza jamur disini lalu pergi ke BDP untuk mencoba buatan mereka. Tapi aku terlalu lelah untuk ke sana namun aku masih butuh dua pizza.`,
+                  `Bagaimana jika kamu mulai memasak dua pizza jamur?`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Bacon",
+                quotes: [
+                  `Aku mau mencoba BDP, tapi bau bacon disini membuatku tidak tahan!`,
+                  `Aku mau pesan bacon!`,
+                ],
+              },
+              {
+                name: "[Saus + Keju + Ham] [Saus + Keju + Ayam]",
+                quotes: [
+                  `Temanku pergi ke BDP untuk pizza ayam dan aku kesini untuk pizza ham. Tapi, sekarang aku juga ingin pizza ayam.`,
+                  `Aku akan pesan keduanya di sini, sehingga aku tidak perlu mengantri.`,
+                ],
+              },
+              {
+                name: "[Saus + Keju + Pepperoni + Sosis + Bacon + Ham]x2",
+                quotes: [
+                  `Akhirnya! Restoran pizza yang buka tanpa antrian panjang! Dua Meat Lover, terima kasih.`,
+                  `Dua pizza dengan empat daging utama diatasnya.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Nanas",
+                quotes: [
+                  `Aku senang kamu masih buka karena aku tidak bisa memesan ini di depan orang-orang yang mengantri di seberang jalan, tapi aku mau pizza dengan... nanas.`,
+                  `Ayolah! Jangan buatku mengatakannya lagi. Seseorang bisa mendengarnya!`,
+                ],
+              },
+              {
+                name: "Saus + Keju + (Zaitun) + (Bawang)",
+                quotes: [
+                  `Setengah diriku ingin ke BDP untuk pizza bawang, tapi setengah diriku mengatakan bahwa aku harus mencoba zaitun di tempat lain.`,
+                  `Aku sudah berada di sini jadi aku mau zaitun, tapi aku juga sangat ingin bawang...tapi aku tidak bisa memakan dua pizza.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika",
+                quotes: [
+                  `Oh wow, menarik sekali, kamu dapat bertahan di sebelah BDP. Bagaimana dengan satu pizza yang super, seperti dirimu!`,
+                  `Kamu pasti sangat super karena masih bisa bertahan, jadi aku ingin mencoba pizza supermu untuk melihat skillmu!`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Jagung",
+                quotes: [
+                  `Aku lelah dengan BDP. Menurutku mereka terlalu beruntung. Tapi aku tahu yang membuatku beruntung, dan itu adalah jagung!`,
+                  `Lagipula, aku yakin tempat klasik seperti ini punya jagung yang lebih enak!`,
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Bagian 5",
+        items: [
+          {
+            name: "Belum tersedia di wiki",
+            items: [
+              {
+                name: "Belum tersedia di wiki",
+                quotes: [`Belum tersedia di wiki`],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
   specialCharacters: {
     name: "Karakter Spesial",
     items: [
-      { name: "Dinding Foto", items: [] },
-      { name: "Karakter Lainnya", items: [] },
+      {
+        name: "Dinding Foto",
+        items: [
+          {
+            name: "Kapten Sparrow",
+            items: [
+              {
+                name: "Saus + Keju + Pepperoni",
+                quotes: [
+                  `Aku sedang sangat jauh dari rumah. Bisakah aku mendapat pizza salami?`,
+                  `Salami sangat terkenal di Genoa. Namun sepertinya mereka menyebutnya pepperoni di Dunia Baru.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Edgar Allan Poe",
+            items: [
+              {
+                name: "Saus + Keju + Pepperoni + Sosis + Bacon + Ham",
+                quotes: [
+                  `Gagak peliharaanku seringnya memakan daging. Bisakah aku memesan pizza Meat Lover tanpa seafood?`,
+                  `Satu pizza dengan semua daging yang kamu punya. Namun, dia bukanlah penggemar makanan laut.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Elon Musk",
+            items: [
+              {
+                name: "Saus + Keju + Paprika + Kemangi + Jalapeno",
+                quotes: [
+                  `Aku punya sesuatu yang berwarna hijau di dalam saku, namun aku juga memerlukannya dalam tubuhku. Bisakah buatkan aku pizza dengan topping yang berwarna hijau? Panggang itu dengan penyembur api.`,
+                  `Semuanya yang berwarna hijau. Sangat renyah.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Elvis Presley",
+            items: [
+              {
+                name: "Saus + Keju + Bacon",
+                quotes: [
+                  `Bisakah aku pesan pizza selai kacang, pisang dan bacon? Tak mengapa jika kamu tidak punya pisang dan selainya.`,
+                  `Satu pizza bacon. Tidak pakai lama, aku sedang mengejar penerbangan ke Vegas malam ini!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Marilyn Monroe",
+            items: [
+              {
+                name: "Saus + Jamur + Zaitun + Bawang + Paprika + Nanas + Kemangi + Terong + Jagung + Bawang Putih + Irisan Tomat + Jalapeno",
+                quotes: [
+                  `Aku hanyalah gadis kecil di dunia yang besar mencari sesuatu untuk dimakan. Bisakah aku memesan pizza vegan?`,
+                  `Apapun selain daging. Tanpa keju, aku sedang membentuk badanku.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Wolfgang Amadeus Mozart",
+            items: [
+              {
+                name: "Saus + Keju + Pepperoni",
+                quotes: [
+                  `Satu pizza dengan salami. Karena terkadang, klasik adalah yang terbaik.`,
+                  `Pepperoni, saus, keju. Kau tahu, salah satu yang disukai semua orang?`,
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Karakter Lainnya",
+        items: [
+          {
+            name: "Petugas Pemadam Kebakaran",
+            items: [
+              {
+                name: "Saus + Jamur + Zaitun + Bawang + Paprika + Kemangi + Jagung + Bawang Putih",
+                quotes: [
+                  `Aku ingin pizza, tapi aku juga ada pekerjaan.`,
+                  `Lewatkan kejunya dan taruh apa saja asalkan sayur di atasnya. Jamur, paprika, dan zaitun juga.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Kimmy Slice",
+            items: [
+              {
+                name: "Saus + Keju + Pepperoni",
+                quotes: [
+                  `Cheesy peasy! Oke... Buatkan aku satu pizza pepperoni dengan 16 potong.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Anak kecil",
+            items: [
+              {
+                name: "Saus + Keju",
+                quotes: [
+                  `Aku hanya punya ini. Bisakah aku mendapat pizza?`,
+                  `Keju!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Siswa Matematika",
+            items: [
+              {
+                name: "[Saus + Keju + Pepperoni]x2",
+                quotes: [
+                  `Aku kesini untuk belajar. Aku mau satu setengah dari empat pizza pepperoni untuk membantu menyelesaikan PR matematika.`,
+                  `Aku pesan satu setengah dari empat pizza pepperoni.” (Maksudnya setengah dari empat pizza.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Pujangga",
+            items: [
+              {
+                name: "Saus + Keju",
+                quotes: [
+                  `Aku melihatmu di berita pagi`,
+                  `Bahwa kamu membuat pizza yang luar biasa,`,
+                  `Aku sedang mencari inspirasi`,
+                  `Sebuah kesenangan untuk mencobanya`,
+                  `Aku ingin pesan sesuatu untuk memulai hari`,
+                  `Satu pizza biasa dengan saus dan keju di atasnya”`,
+                ],
+              },
+              {
+                name: "Saus + Keju + (Pepperoni)",
+                quotes: [
+                  `Aroma luar biasa dari saus yang dibaka`,
+                  `Pepperoni dan keju dalam irisan yang sama besar`,
+                ],
+              },
+              {
+                name: "Saus + Pepperoni + Sosis + Jamur + Zaitun + Bawang + Paprika + Bacon + Nanas + Ikan Teri + Ham + Kemangi + Terong + Udang + Jagung + Ayam + Bawang Putih + Irisan Tomat + Jalapeno",
+                quotes: [
+                  `Aku kesini dengan seorang teman yang ingin mencoba semua baha`,
+                  `Namun tidak dengan keju; dia adalah anti laktosa.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Sobat Pelatih Beruang",
+            items: [
+              {
+                name: "[Saus + Keju + Pepperoni]x3",
+                quotes: [
+                  `Pizzamu telah mengubah hidupku, teman! Aku mengabdikan diriku untuk melatih beruang. Aku butuh tiga pizza pepperoni untuk beruangku.`,
+                  `Tiga pizza pepperoni, sobat!`,
+                ],
+              },
+              {
+                name: "[Saus + Keju + Ikan Teri] [Saus + Keju + Kemangi]",
+                quotes: [
+                  `Malam yang besar kawan! Aku akan berkencan ganda dengan salah satu beruangku. Satu pizza teri dan satu pizza kemangi.`,
+                  `Satu pizza ikan teri dan satu pizza kemangi, sobat!`,
+                ],
+              },
+              {
+                name: "[Saus + Keju + Bacon]",
+                quotes: [
+                  `Halo, sobat! Aku ingin satu pizza bacon untuk ulang tahun beruangku.`,
+                  `Satu pizza bacon, kawan!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Carmen Sandiego/Pelancong",
+            items: [
+              {
+                name: "Saus + Keju + Bawang + Kemangi + Ayam",
+                quotes: [
+                  `Aku punya selera yang eksotis. Bisakah kamu membuatkanku pizza ayam Thai?`,
+                  `Hmm, tidak memiliki semua bahannya? Tinggal taruh ayam, bawang, dan kemangi di atas pizza keju saja.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Bawang + Ikan Teri + Udang",
+                quotes: [
+                  `Aku ingin pesan Pajeon seafood.`,
+                  `Pajeon adalah cara orang Korea mengatakan pizza scallion. Kalau kamu tidak punya scallion, bawang putih juga tidak apa-apa, trims.” (Maksudnya bawang bombay.`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Seniman",
+            items: [
+              {
+                name: "Apa saja",
+                quotes: [
+                  `Hai! Bisakah aku pesan pizza dengan wajah tersenyum di atasnya?`,
+                  `Buat wajah tersenyum dengan memakai topping!`,
+                  `Yo! Bisakah kamu membuat pizza dengan binatang favorit kamu di atasnya?`,
+                  `Buat binatang dengan memakai topping!`,
+                  `Apa kabs! Buatkan aku sebuah monster pizza!`,
+                  `Buat monster dengan memakai topping!`,
+                  `Oi! Bisakah kamu membuat pizza yang menunjukkan Ketimpangan sosial dan ekonomi serta tingginya kesenjangan sosial antara kelas atas dan kelas menengah ke bawah.`,
+                  `Gambarkan itu dengan memakai topping!`,
+                ],
+              },
+            ],
+          },
+          {
+            name: "Vampir",
+            items: [
+              {
+                name: "Saus + Keju + (Jamur) + (Paprika)",
+                quotes: [
+                  `Aku sedang diet sekarang. Buatkan aku pizza jamur-paprika, namun setengah-setengah.`,
+                  `Sangat sulit menghindari daging, namun ini untuk kebaikan. Jamur di satu sisi, paprika di sisi satunya.`,
+                ],
+              },
+              {
+                name: "Saus + Keju + Kemangi + Jagung + Bawang Putih",
+                quotes: [
+                  `Aku tidak bisa makan sayuran, tapi aku akan mencobanya. Tapi tanpa bawang!`,
+                  `Sepupuku tidak suka bawang, tapi aku lebih benci bawang! Aku akan memesan sayuran yang lainnya.`,
+                ],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
 };
