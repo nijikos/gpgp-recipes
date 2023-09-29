@@ -1,4 +1,3 @@
-import { pizzas } from "@/@db/pizzas";
 import { isEqual, uniq, uniqWith } from "lodash";
 
 // Define a custom comparator function to compare objects
@@ -15,7 +14,7 @@ function reformat(original: any) {
   });
 }
 
-export function searchByQuotes(query: string) {
+export function searchByQuotes(query: string, pizzas: any) {
   query = query.toLowerCase();
   const results: any[] = [];
 

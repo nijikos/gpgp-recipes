@@ -15,7 +15,7 @@ import Iconsax from "@/components/Icon";
 // ---------- LIBRARIES ----------
 import { isEmpty } from "lodash";
 // ---------- HELPERS ----------
-import { pizzas } from "@/@db/pizzas";
+import { pizzas } from "@/@db/pizzasID";
 import { searchByQuotes } from "@/helpers/search";
 
 const rubik = Rubik({
@@ -104,7 +104,7 @@ export default function Home() {
       <div className='bg-primary-3 px-4 py-4 rounded-2xl flex flex-row gap-2'>
         <input
           autoFocus={true}
-          placeholder='Search Quotes/Dialogues Here'
+          placeholder='Cari dialog disini (belum lengkap)'
           className='bg-transparent w-full focus:outline-none text-primary-6 placeholder:text-primary-5'
           value={searchTerm}
           onChange={(e) => {
@@ -123,6 +123,7 @@ export default function Home() {
           />
         </button>
       </div>
+
       {!isEmpty(searchTerm) ? (
         isEmpty(searchResults) ? (
           <div className='px-6 py-4 rounded-2xl bg-primary-2'>
