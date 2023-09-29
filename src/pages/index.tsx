@@ -50,7 +50,7 @@ export default function Home() {
         <title>Good Pizza Great Pizza Recipe Guide</title>
         <meta
           name='description'
-          content='Search Good Pizza Great Pizza recipes based on the quotes from customers'
+          content='Search Good Pizza Great Pizza recipes based on the dialogues from customers'
           key='desc'
         />
       </Head>
@@ -89,7 +89,7 @@ export default function Home() {
       <div className='bg-primary-3 px-4 py-4 rounded-2xl'>
         <input
           autoFocus={true}
-          placeholder='Search Quotes Here'
+          placeholder='Search Quotes/Dialogues Here'
           className='bg-transparent w-full focus:outline-none text-primary-6 placeholder:text-primary-5'
           value={searchTerm}
           onChange={(e) => {
