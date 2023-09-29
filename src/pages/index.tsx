@@ -16,6 +16,7 @@ import { searchByQuotes } from "@/helpers/search";
 import Head from "next/head";
 import Link from "next/link";
 import useSmoothScroll from "@/hooks/useSmoothScroll";
+import Iconsax from "@/components/Icon";
 
 const rubik = Rubik({
   weight: ["400", "500", "700"],
@@ -61,11 +62,31 @@ export default function Home() {
           scrollToElement("mainwrapper");
         }}
       >
-        <p className='text-sm text-white'>top</p>
+        <p className='text-sm text-white'>
+          <Iconsax
+            name='arrowup'
+            strokeClassName='stroke-primary-6 hover:stroke-accent-3 transition'
+          />
+        </p>
       </div>
       {/* </Link> */}
 
-      <div className='bg-primary-3 px-4 py-4 rounded-2xl scroll-smooth'>
+      <div className='text-primary-5'>
+        <p className='font-bold text-7xl pageTitle'>Good Pizza, Great Pizza</p>
+        <p className='text-center text-2xl mb-4'>Recipe Guide</p>
+        <p className='text-center text-xs'>
+          Based on{" "}
+          <Link
+            href='https://good-pizza-great-pizza.fandom.com/wiki/List_of_orders'
+            target='_blank'
+          >
+            <span className='text-accent-4 hover:underline'>this</span>
+          </Link>{" "}
+          Good Pizza Great Pizza fandom wiki
+        </p>
+      </div>
+
+      <div className='bg-primary-3 px-4 py-4 rounded-2xl'>
         <input
           autoFocus={true}
           placeholder='Search Quotes Here'

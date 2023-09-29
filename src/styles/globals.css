@@ -19,3 +19,9 @@ body {
     @apply bg-primary-1;
   }
 }
+
+.pageTitle {
+  text-align: center;
+  text-shadow: 2px 2px 0 #5e2833, -2px 2px 0 #5e2833, -2px -2px 0 #5e2833,
+    2px -2px 0 #5e2833;
+}
